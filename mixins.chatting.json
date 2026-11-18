@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.aetherhaven.chatting.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "mixins.chatting.refmap.json",
+  "plugin": "org.aetherhaven.chatting.mixin.ChattingMixinPlugin",
+  "injectors": {
+    "defaultRequire": 1,
+    "maxShiftBy": 5
+  },
+  "client": [
+    "ChatComponentAccessor",
+    "ChatComponentMixin",
+    "ChatScreenMixin",
+    "GuiMessageLineMixin",
+    "MouseHandlerMixin"
+  ]
+}
